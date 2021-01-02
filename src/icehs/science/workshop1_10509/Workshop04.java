@@ -28,9 +28,11 @@ public class Workshop04 {
         System.out.print( " 아메리카노 주문 수량 : " );
         int americano = getUserInput();
         int amePrice = americano * 2000;
+        
         System.out.print( " 카페라떼 주문 수량 : " );
         int latte = getUserInput();
-        int latteprice = latte * 3000;
+        int lattePrice = latte * 3000;
+        
         System.out.print( " 베이글 주문 수량 : " );
         int bagel = getUserInput();
         int bagelPrice = bagel * 1500;
@@ -39,8 +41,14 @@ public class Workshop04 {
         int creamCheese = getUserInput();
         int creamPrice = creamCheese * 500;
         
+        System.out.println( "========= 금액 =========" );
+        System.out.println("아메리카노 : " + amePrice + "원");
+        System.out.println("카페라떼 : " + lattePrice + "원");
+        System.out.println("베이글 : " + bagelPrice + "원");
+        System.out.println("크림치즈 : " + creamPrice + "원");
         
-        int sum = amePrice + latteprice + bagelPrice + creamPrice;
+        
+        int sum = amePrice + lattePrice + bagelPrice + creamPrice;
         System.out.println("========================");
         System.out.println("총 구매 금액 : " + sum + "원");
         if (sum >= 30000) {

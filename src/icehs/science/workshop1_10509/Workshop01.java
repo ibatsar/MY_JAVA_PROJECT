@@ -8,7 +8,7 @@ public class Workshop01 {
 	 int num1 = 120112;
 	 int num2 = 3434342;
 	 
-	 System.out.println(num1 + "-" + num2);
+	 System.out.println("주민등록번호 : " + num1 + "-" + num2);
      
      
  }
