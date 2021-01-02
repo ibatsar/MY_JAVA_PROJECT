@@ -1,4 +1,4 @@
-package icehs.science.workshop1;
+package icehs.science.workshop1_10509;
 
 import java.io.BufferedReader;
 import java.io.IOException;
