@@ -1,4 +1,4 @@
-package icehs.science.workshop1;
+package icehs.science.workshop1_10509;
 
 //문제 2.
 //아래와 같이 변수가 선언되어 있을 때,

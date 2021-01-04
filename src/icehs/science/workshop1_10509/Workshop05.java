@@ -1,4 +1,4 @@
-package icehs.science.workshop1;
+ package icehs.science.workshop1_10509;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,9 +29,9 @@ public class Workshop05 {
         double badminton = getUserInput();
         
         System.out.println( "==============================" );
-        
+        gpa = (computer + java + engineMath + opera + badminton) / 5 ;
         System.out.println( "평점은 " + gpa + "점 입니다." );
-        if ( gpa >= 3.7 && computer > 2.5) {
+        if ( gpa >= 3.7 && computer > 2.5 && java > 2.5 && engineMath >2.5 && opera > 2.5 && badminton > 2.5) {
         	System.out.println("다음 학기 장학금 대상자입니다.");
         }
     }
