@@ -15,7 +15,7 @@ public class CarTest {
 	iceCar.printCarInfo();
 	
 	iceCar.driveCar ( "IT센터" , "인천공항" , 10.17);
-	iceCar.printCarInfo;
+	iceCar.printCarInfo();
 	
 	iceCar.driveCar ( "인천공항" , "곤지암 리조트" , 60.21);
 	iceCar.printCarInfo();
