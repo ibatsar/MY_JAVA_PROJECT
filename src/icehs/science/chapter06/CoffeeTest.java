@@ -17,3 +17,4 @@ public class CoffeeTest {
 		System.out.println("гу╟Х : " + priceSum + "©Ь");
 
 }
+}
