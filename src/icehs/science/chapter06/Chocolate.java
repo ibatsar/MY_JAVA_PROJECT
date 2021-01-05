@@ -15,9 +15,22 @@ public class Chocolate {
 		
 		
 	}
+	
+	int calculateTotalPrice ( int count, int discount) {
+		return count * price * (100 - discount ) / 100;
+		
+	}
+	
 	void changeChocolateInfo(String newName, int newPrice) {
 		name = newName;
 		price = newPrice;
+		printChocolateInfo();
+	}
+	
+	void changeChocolateInfo(String newName, int newPrice, String newType) {
+		name = newName;
+		price = newPrice;
+		type = newType;
 		printChocolateInfo();
 	}
 	void printChocolateInfo() {
